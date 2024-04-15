@@ -1,0 +1,103 @@
+/* PC、スマホ共通スタイル */
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  color: black;
+  background-color: #fff;
+  font-size: 18px;
+}
+body h1 {
+  font-size: 34px;
+  font-weight: bold;
+}
+body h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+/* header */
+header {
+  display: flex;
+  justify-content: center;
+  margin: 20px 100px 20px 100px;
+}
+header h1 {
+  padding: 5px 10px 5px 10px;
+  border: solid 1px black;
+  margin-right: 150px;
+
+}
+nav {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+
+/* Main */
+#main-image > img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* セクション１ */
+#About h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+#about {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-right: 100px;
+}
+#about img {
+  border-radius: 50%;
+  width: auto;
+  height: 150px;
+  margin-right: 40px;
+}
+.about h2 {
+  margin-bottom: 20px;
+}
+.about li {
+  line-height: 1.5;
+}
+
+
+/* セクション２ */
+#Works h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+#works {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+  
+}
+#works img {  
+  width: 70%;
+  height: auto;
+}
+.works p {
+  flex: auto;
+}
+
+/* footer */
+body footer {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  #works {
+    width: 100%;
+    flex-direction: column;
+  }
+  #works img {
+    width: 70%;
+    height: auto;
+  }
+}
