@@ -25,10 +25,18 @@ header {
 header h1 {
   border: 1px solid black;
 }
-nav ::first-letter{
+#menu :first-child{
   margin-right: 20px;
 }
 
 #main-visual {
   max-width: 100%;
+}
+
+#about h1 {
+  
+}
+.about {
+  display: flex;
+  justify-content: center;
 }
