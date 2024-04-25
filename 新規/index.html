@@ -1,57 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="JP">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
+  <link rel="stylesheet" href="style.css">
   <title>portfolio</title>
 </head>
 <body>
   <header>
-    <h1>My Profile</h1>
+    <h1><a href="/新規/index.html">My Profile</a></h1>
     <nav id="menu">
-      <a class="menu1" href="index.html#about">About</a>     
-      <a class="menu2" href="index.html#works">Works</a> 
+      <ul class="menu-list">
+        <li>
+          <a href="index.html#about">About</a>     
+        </li>
+        <li>
+          <a href="index.html#works">Works</a> 
+        </li>
+      </ul>
     </nav>
   </header>
   <main>
-    <article>
-      <img id="main-visual" src="images/main.png" alt="メイン画像">
-      <section id="about">
-        <h1>About</h1>
-        <div class="about">
-          <img src="images/about.png" alt="プロフィール画像">
-          <div>  
-            <h2>Kazuki Asahina</h2>
-            <p>・25歳 長野県佐久市出身</p>
-            <p>・ソフトウェア業界でマーケティングに従事</p>
-            <p>・趣味はカメラ、愛機はCanon</p>
-            <p>・自然を撮影をするのが好きで、海や山によく行く</p>
-          </div>
+    <img id="main-visual" src="images/main.png" alt="メイン画像" width="960" height="400">
+    <section id="about">
+    <h2>About</h2>
+      <div class="about">
+        <img src="images/about.png" alt="プロフィール画像" width="142" height="142">
+        <div>  
+          <h3>Kazuki Asahina</h3>
+          <ul>
+            <li><p>・25歳 長野県佐久市出身</p></li>
+            <li><p>・ソフトウェア業界でマーケティングに従事</p></li>
+            <li><p>・趣味はカメラ、愛機はCanon</p></li>
+            <li><p>・自然を撮影をするのが好きで、海や山によく行く</p></li>
+          </ul>
         </div>
-      </section>
-      <section id="works">
-        <h1>Works</h1>
-        <div class="works">
-          <div class="works1">
-            <img src="images/works1.png" alt="新潟">
-            <p>新潟に訪れた際に、日本海の雄大さを魅了されて撮影した1枚</p>
-          </div>
-          <div class="works2">
-            <img src="images/works2.png" alt="長野">
-            <p>地元長野の木曽町から撮影した、冠雪した御嶽山</p>
-          </div>
-          <div class="works3">
-            <img src="images/works3.png" alt="京都">
-            <p>京都で撮影した、明け方の古き良き日本の町並み</p>
-          </div>
-        </div>
-      </section>
-    </article>
+      </div>
+    </section>
+    <section id="works">
+      <h2>Works</h2>
+      <ul class="works">
+        <li class="works-item">
+          <img src="images/works1.png" alt="新潟" width="179" height="134">
+          <p>新潟に訪れた際に、日本海の雄大さを魅了されて撮影した1枚</p>
+        </li>
+        <li class="works-item">
+          <img src="images/works2.png" alt="長野" width="179" height="134">
+          <p>地元長野の木曽町から撮影した、冠雪した御嶽山</p>
+        </li>
+        <li class="works-item">
+          <img src="images/works3.png" alt="京都" width="179" height="134">
+          <p>京都で撮影した、明け方の古き良き日本の町並み</p>
+        </li>
+      </ul>
+    </section>
   </main>
+  <footer><p>&copy; MyProfile. All rights reserved.</p></footer>
 </body>
 </html>
