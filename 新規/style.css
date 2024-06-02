@@ -26,9 +26,26 @@ body {
 }
 
 header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header-inner {
   display: flex;
   justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
 }
+
+#menu {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  padding: 11px 28px 12px 29px;
+  font-weight: bold;
+}
+
 header h1 {
   border: 1px solid black;
 }
@@ -40,10 +57,15 @@ header h1 {
 }
 
 #main-visual {
+  width: 100%;
   max-width: 100%;
 }
 
-
+.main-inner {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
 .about {
   display: flex;
   justify-content: center;
