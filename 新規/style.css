@@ -103,4 +103,29 @@ footer {
   text-align: center;
   margin: 32px auto;
 }
-
+/* スマートフォン */
+@media screen and (max-width: 767px) {
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 727px;
+    margin: 0 auto;
+  }
+  .about {
+    margin-top: 42px;
+  }
+  .works {
+    display: block;
+    justify-content: center;
+    
+  }
+  .works-item > img {
+    width: 647px;
+    height: auto;
+  }
+  .works-item > p {
+    flex-wrap: nowrap;
+    max-width: 647px;
+    margin: 20px auto;
+  }
+}
