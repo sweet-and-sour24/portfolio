@@ -78,10 +78,29 @@ header h1 {
 .about {
   display: flex;
   justify-content: center;
-  margin-top: 22px;
+  margin: 22px auto;
   text-align: left;
 }
 .about-visual {
   border-radius: 50%;
   margin-right: 33px;
 }
+#works {
+  margin: 44px auto;
+}
+.works {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+.works-item {
+  flex: 1;
+}
+.works-item > p {
+  max-width: 178px;
+}
+footer {
+  text-align: center;
+  margin: 32px auto;
+}
+
