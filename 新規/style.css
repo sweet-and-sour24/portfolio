@@ -106,18 +106,13 @@ footer {
 /* スマートフォン */
 @media screen and (max-width: 767px) {
   .header-inner {
-    display: flex;
-    justify-content: space-between;
     max-width: 727px;
-    margin: 0 auto;
   }
   .about {
     margin-top: 42px;
   }
   .works {
     display: block;
-    justify-content: center;
-    
   }
   .works-item > img {
     width: 647px;
