@@ -79,6 +79,8 @@ header h1 {
   display: flex;
   justify-content: center;
   margin: 22px auto;
+}
+.about-profile {
   text-align: left;
 }
 .about-visual {
@@ -106,13 +108,40 @@ footer {
 /* スマートフォン */
 @media screen and (max-width: 767px) {
   .header-inner {
-    max-width: 727px;
+    max-width: 343px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 18px;
+  }
+  #menu {
+    font-size: 18px;
   }
   .about {
     margin-top: 42px;
+    display: block;
+  }
+  .about-visual {
+    height: 280px;
+    width: 280px;
+    margin: 0 auto;
+  }
+  .about-profile {
+    margin: 0 auto;
+    width: 296px;
   }
   .works {
     display: block;
+    width: 355px;
+    margin: 0 auto;
   }
   .works-item > img {
     width: 647px;
