@@ -16,14 +16,14 @@
 <body>
   <header>
     <div class="header-inner">
-      <h1 class="header-logo"><a class="myprofile" href="/Deliverables/index.html">My Profile</a></h1>
+      <h1 class="header-logo"><a class="myprofile" href="#index.html">My Profile</a></h1>
       <nav id="menu">
         <ul class="menu-list">
           <li>
-            <a class="menu-about" href="index.html#about">About</a>     
+            <a class="menu-about" href="#about">About</a>     
           </li>
           <li>
-            <a class="menu-works" href="index.html#works">Works</a> 
+            <a class="menu-works" href="#works">Works</a> 
           </li>
         </ul>
       </nav>
@@ -31,19 +31,19 @@
   </header>
   <main>
     <!-- カルーセル -->
-    <section id="carousel-section">
-      <div class="carousel">
-        <div>
+    <div id="carousel-section">
+      <ul class="carousel">
+        <li>
           <img class="carouselImg" src="images/main.png">
-        </div>
-        <div>
+        </li>
+        <li>
           <img class="carouselImg" src="images/main2.png">
-        </div>
-        <div>
+        </li>
+        <li>
           <img class="carouselImg" src="images/main3.png">
-        </div>
-      </div>
-    </section>
+        </li>
+      </ul>
+    </div>
     <!-- <img id="main-visual" src="images/main.png" alt="メイン画像" width="960" height="400"> -->
     <div class="main-inner">
       <section id="about">
@@ -81,6 +81,10 @@
     </div>
   </main>
   <a id="back-btn" href="#">TOP</a>
+  <div class="modal">
+    <img src="" class="big-img">
+    <a class="close-btn">✖</a>
+  </div>
 
   <footer><p>&copy; MyProfile. All rights reserved.</p></footer>
 
