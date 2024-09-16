@@ -26,10 +26,24 @@ h2 {
 ul {
   line-height: 24.52px;
 }
+/* トップに戻るボタン */
+#back-btn {
+  display: none;
+  padding: 28px 24px;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 50%;
+  font-family: Noto Sans JP, sans-serif;
+  font-size: 15px;
+  position: fixed;
+  bottom: 38px;
+  right: 20px;
+}
 
 /* PCスタイル */
 body {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -65,7 +79,7 @@ header h1 {
   gap: 20px;
 }
 
-#main-visual {
+.carouselImg {
   width: 100%;
   max-width: 100%;
 }
